@@ -1,0 +1,77 @@
+.kanban-board {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 100%;
+  }
+  
+  .column {
+    width: 30%;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: move;
+  }
+  
+  .task span {
+    flex-grow: 1;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  button {
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005ca9;
+  }
+  
+  input[type='text'] {
+    width: 70%;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 2px #ccc;
+  }
+   
+  button[type='submit'] {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button[type='submit']:hover {
+    background-color: #388e3c;
+  }
+  
+  h3 {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
